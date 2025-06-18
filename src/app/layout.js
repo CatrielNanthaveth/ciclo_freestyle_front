@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
             <Link href="/fechas" className="hover:underline hover:text-decorative">Fechas</Link>
           </div>
         </nav>
-        <main className="pt-24 px-6">{children}</main>
+        <main className="px-6">{children}</main>
         <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
 
         </footer>
